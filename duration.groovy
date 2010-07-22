@@ -46,7 +46,7 @@ def usage() {
 }
 
 def invalidDateOrder() {
-	println("duration: the start date must be earlier that end date")
+	println("duration: start date must be earlier than end date")
     System.exit(1)
 }
     
